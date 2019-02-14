@@ -120,5 +120,6 @@ fi
 
 alias record='ffmpeg -f x11grab -y -r 30 -s 1920x1080 -i :0.0 ~/Videos/ffmpeg-capture/out.avi'
 alias f='xdotool key F11'
-
+alias giton='mv .gitoff .git'
+alias gitoff='mv .git .gitoff'
 source ~/.git-prompt.sh
