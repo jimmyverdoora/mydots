@@ -118,7 +118,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+rmd () {
+  pandoc $1 | lynx -stdin
+}
+
 alias record='ffmpeg -f x11grab -y -r 30 -s 1920x1080 -i :0.0 ~/Videos/ffmpeg-capture/out.avi'
+alias rcp='rsync --progress --size-only --inplace --verbose'
 alias f='xdotool key F11'
 alias giton='mv .gitoff .git'
 alias gitoff='mv .git .gitoff'

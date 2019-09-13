@@ -5,4 +5,6 @@ message/rfc822=userapp-Thunderbird-JJHWWZ.desktop
 [Added Associations]
 x-scheme-handler/mailto=userapp-Thunderbird-JJHWWZ.desktop;
 message/rfc822=userapp-Thunderbird-JJHWWZ.desktop;
-application/pdf=feh.desktop;
+application/pdf=firefox.desktop;org.gnome.Evince.desktop;feh.desktop;
+video/x-msvideo=feh.desktop;firefox.desktop;
+application/rtf=openoffice4-writer.desktop;

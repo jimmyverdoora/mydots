@@ -35,10 +35,10 @@
     background_color = "#1a1a1a"
     background_darkness = 0.0
     background_type = transparent
-    cursor_color = "#f6f7ec"
-    font = Monospace 14
-    foreground_color = "#c4c5b5"
-    palette = "#1a1a1a:#f4005f:#98e024:#fa8419:#9d65ff:#f4005f:#58d1eb:#c4c5b5:#625e4c:#f4005f:#98e024:#e0d561:#9d65ff:#f4005f:#58d1eb:#f6f6ef"
+    cursor_color = "#fafaf6"
+    font = Hack Nerd Font Mono 14
+    foreground_color = "#fafaf6"
+    palette = "#1a1a1a:#f4005f:#98e024:#fa8419:#9d65ff:#f4005f:#58d1eb:#fafaf6:#625e4c:#f4005f:#98e024:#e0d561:#9d65ff:#f4005f:#58d1eb:#ffffff"
     scrollback_lines = 5000
     scrollbar_position = hidden
     show_titlebar = False
